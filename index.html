@@ -2,222 +2,67 @@
 <html>
 	<head>
 		<title>HHUYS</title>
-		<link rel="stylesheet" href="/assets/fontawesome-free/css/all.css">
-		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="/assets/font-awesome-6-pro/css/all.css">
+		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
 		<div class="warpper">
 			<div class="container">
 				<div class="nav-menu">
-					<img class="logo" src="/assets/image/logo.png">
+					<img class="logo" src="./assets/image/logo.png">
 					<div class="list-menu">
-						<div class="select home">HOME</div>
-						<div class="select application">APPLICATION</div>
-						<div class="select programming">PROGRAMMING</div>
-						<div class="select projects">PROJECTS</div>
-						<div class="select about">ABOUT</div>
+						<div class="select home">
+							<a class="select-link" href="#">HOME</a>
+						</div>
+						<div class="select application">
+							<a class="select-link" href="./app/main-app.html">APPLICATION</a>
+						</div>
+						<div class="select programming">
+							<a class="select-link" href="./program/main-program.html">PROGRAMMING</a>
+						</div>
+						<div class="select projects">
+							<a class="select-link" href="./project/main-project.html">PROJECTS</a>
+						</div>
+						<div class="select about">
+							<a class="select-link" href="./about.html">ABOUT</a>
+						</div>
 					</div>
 				</div>
 				<div class="content">
 					<div class="search">
 						<div class="name">hhuys.tk</div>
 						<div class="search-box">
-							<div class="t-search">search...</div>
-							<i class="fa-sharp fa-solid fa-magnifying-glass fa-beat-fade i-search"></i>
+							<input type="text" placeholder="search......." id="search-item" class="search-input" autocomplete="off">	
+							<i id="btn-search" class="fa-sharp fa-solid fa-magnifying-glass fa-beat-fade"></i>	
 						</div>
 					</div>
-					<div class="list">
-						<div class="list-name">All</div>
-						<div class="list-name">Adobe</div>
-						<div class="list-name">Office</div>
-						<div class="list-name">Multimedia</div>
-						<div class="list-name">Graphics</div>
-						<div class="list-name">Program</div>
-						<div class="list-name">Tool & Driver</div>
-					</div>
-					<div class="section">
-						<div class="item">
-							<img src="/assets/image/app/adobe/pts2022.webp" alt="" class="item-img">
-							<div class="item-head">photoshop 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
+					<div class="main-section">
+						<div class="main-contain">
+							<img src="./assets/image/phanmem.webp" alt="" class="main-content-img">
+							<div class="main-content">
+								<h1 class="main-head">APPLICATION</h1>
+								<p class="main-discription">App windows, cad, office, adobe,...</p>
+								<a class="main-btn" href="./app/main-app.html">More</a>
 							</div>
-							<div class="item-discription">more</div>
 						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/ai2022.jpg" alt="" class="item-img">
-							<div class="item-head">Illustrator 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
+						<div class="main-contain">
+							<img src="./assets/image/IOT-1.jpg" alt="" class="main-content-img">
+							<div class="main-content">
+								<h1 class="main-head">PROGRAMMING</h1>
+								<p class="main-discription">Embedded software c/c++, html/css/js,....</p>
+								<a class="main-btn" href="./program/main-program.html">More</a>
 							</div>
-							<div class="item-discription">more</div>
 						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/pr2023.png" alt="" class="item-img">
-							<div class="item-head">Premiere Pro 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
+						<div class="main-contain">
+							<img src="./assets/image/armrobot.jpg" alt="" class="main-content-img">
+							<div class="main-content">
+								<h1 class="main-head">PROJECTS</h1>
+								<p class="main-discription">Solution iot, automatic, robot,..</p>
+								<a class="main-btn" href="./project/main-project.html">More</a>
 							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/ae2023.png" alt="" class="item-img">
-							<div class="item-head">after effect 2023</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/pts2022.webp" alt="" class="item-img">
-							<div class="item-head">photoshop 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/ai2022.jpg" alt="" class="item-img">
-							<div class="item-head">Illustrator 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/pr2023.png" alt="" class="item-img">
-							<div class="item-head">Premiere Pro 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/ae2023.png" alt="" class="item-img">
-							<div class="item-head">after effect 2023</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/pts2022.webp" alt="" class="item-img">
-							<div class="item-head">photoshop 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/ai2022.jpg" alt="" class="item-img">
-							<div class="item-head">Illustrator 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/pr2023.png" alt="" class="item-img">
-							<div class="item-head">Premiere Pro 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/ae2023.png" alt="" class="item-img">
-							<div class="item-head">after effect 2023</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/pts2022.webp" alt="" class="item-img">
-							<div class="item-head">photoshop 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/ai2022.jpg" alt="" class="item-img">
-							<div class="item-head">Illustrator 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/pr2023.png" alt="" class="item-img">
-							<div class="item-head">Premiere Pro 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/ae2023.png" alt="" class="item-img">
-							<div class="item-head">after effect 2023</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/pts2022.webp" alt="" class="item-img">
-							<div class="item-head">photoshop 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/ai2022.jpg" alt="" class="item-img">
-							<div class="item-head">Illustrator 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/pr2023.png" alt="" class="item-img">
-							<div class="item-head">Premiere Pro 2022</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
-						</div>
-						<div class="item">
-							<img src="/assets/image/app/adobe/ae2023.png" alt="" class="item-img">
-							<div class="item-head">after effect 2023</div>
-							<div class="item-sub">
-								<i class="fa-solid fa-download"></i>
-							</div>
-							<div class="item-discription">more</div>
 						</div>
 					</div>
-					<div class="more">
-						<div class="more-page">
-							<a href="/app/app-all-1.html" class="more-link">
-								<i class="fa-solid fa-angles-left fa-sm more-page"></i>
-							</a>
-						</div>
-						<div class="more-page">
-							<a href="/app/app-all-1.html" class="more-link" style="color: rgb(144,206,63);">1</a>
-						</div>
-						<div class="more-page">
-							<a href="/app/app-all-2.html" class="more-link">2</a>
-						</div>
-						<div class="more-page">
-							<a href="/app/app-all-3.html" class="more-link">3</a>
-						</div>
-						<div class="more-page">
-							<a href="/app/app-all-2.html" class="more-link">
-								<i class="fa-solid fa-angles-right fa-sm more-page"></i>
-							</a>
-						</div>
-					</div>
+					
 					<div class="footer">
 						<div class="contact"></div>
 						<div class="online">
@@ -231,4 +76,5 @@
 			</div>
 		</div>
 	</body>
+	<script src="script.js"></script>
 </html>

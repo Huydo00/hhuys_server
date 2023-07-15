@@ -1,0 +1,394 @@
+body{
+    background-size: cover;
+    font-family: Roboto, sans-serif;
+    background-color: whitesmoke ;
+    margin: 0;
+}
+body .warpper{
+}
+
+body .warpper .container{
+    
+}
+
+body .container .nav-menu{
+    position: fixed;
+    background-color: whitesmoke;
+    width: 15%;
+    height: 100%;
+    left: 0;
+}
+
+.container .nav-menu .logo{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+
+}
+
+.container .nav-menu .list-menu{
+    background-color: whitesmoke;
+}
+
+.container .list-menu .select{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    margin: 10px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: color .3s ease-in-out;
+}
+
+.container .list-menu .select-link{
+    text-decoration: none;
+    color: black;
+    transition: color .3s ease-in-out;
+}
+
+.container .list-menu .select:hover{
+    cursor: pointer;
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 rgb(144,206,63);
+}
+.container .list-menu .select-link:hover{
+    cursor: pointer;
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 rgb(144,206,63);
+} 
+
+.container .list-menu .about{
+    margin-top: 100px;
+}
+
+body .container .content{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 85%;
+    height: auto;
+    right: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 30px -10px inset;
+}
+
+.container .content .search{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.container .content .name{
+    color: rgb(144,206,63);
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 24px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    left: 50px;
+}
+
+.container .content .search-box{
+    width: 400px;
+    height: 35px;
+    background-color: whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 35px;
+}
+.container .content .search-box .search-input{
+    width: 80%;
+    height: 80%;
+    border: none;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+.container .content .search #btn-search{
+    color: black;
+    display: inline-block;
+    padding: 0 10px;
+}
+.container .content .search #btn-search:hover{
+    cursor: pointer;
+    color: rgb(144,206,63);
+}
+
+.container .content .list{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 70%;
+}
+
+.container .list .list-name{
+    width: calc(100% / 7);
+    min-width: 95px;
+    padding: 7px 0;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 3px;
+    transition: color .3s ease-in-out;
+    border: none;
+}
+
+.container .list .list-name:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: rgb(144,206,63);;
+}
+.container .list .color-filter{
+    color: whitesmoke;
+    background-color: rgb(144,206,63);;
+}
+.container .content .about-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container .about-section .about-img{
+    width: 55%;
+}
+/*mainn*/
+.container .content .main-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container .main-section .main-contain{
+    width: 25%;
+    height: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 10px;
+}
+.container .main-contain .main-content-img{
+    margin-top: 10%;
+    width: 100%;
+    height: 40%;
+}
+.container .main-contain .main-content{
+    text-align: center;
+}
+.container .main-content .main-head{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.container .main-content .main-discription{
+
+}
+.container .main-content .main-btn{
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 20px;
+    width: 30%;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.container .main-content .main-btn:hover{
+    cursor: pointer;
+}
+
+/*app*/
+.container .content .section{
+    --spacing: 70px;
+    --height: 100px;
+    --columns: 4;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--spacing));
+    padding-left: var(--spacing);
+    padding-right: var(--spacing);
+    justify-content: center;
+}
+
+.container .section .item-app{
+    background-color: whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    width: calc(calc(100% / var(--columns)) - var(--spacing));
+    max-width: 200px;
+    max-height: 230px;
+    margin-left: var(--spacing);
+    margin-bottom: calc(var(--spacing) / 2);
+}
+
+.container .item-app .item-img{
+    display: block;
+    width: 100%;
+    height: 50%;
+    max-height: 113px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.container .item-app .item-head{
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.container .item-app .item-sub, .color-gw{
+    color: black;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 5px auto;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+}
+
+.container .item-app .item-sub:hover , .color-gw:hover{
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+    background-color: rgb(144,206,63);
+    color: whitesmoke;
+}
+
+.container .item-app .item-discription{
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    margin: 5px auto;
+    border-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+}
+
+.container .item-app .item-discription:hover{
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+    background-color: rgb(144,206,63);
+    color: whitesmoke;
+}
+
+/*program*/
+.container .section-program{
+    --spacing: 70px;
+    --height: 100px;
+    --columns: 4;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--spacing));
+    padding-left: var(--spacing);
+    padding-right: var(--spacing);
+    justify-content: center;
+}
+.container .section-program .item-program{
+    background-color: whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    width: calc(calc(100% / 2) - 10px);
+    max-width: 700px;
+    max-height: 230px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    display: inline-flex;
+}
+
+.container .item-program .item-img-program{
+    display: block;
+    width: 50%;
+    height: 100%;
+    max-height: 150px;
+    border-radius: 5px 0 0 5px;
+}
+.container .item-program .infor-program{
+    width: 50%;
+    height: 100%;
+}
+.container .infor-program .item-head-program{
+    height: 20%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+.container .infor-program .item-sub-program{
+    height: 60%;
+    margin: 5px;
+    text-align: justify;
+}
+.container .infor-program .item-dis-program{
+    height: 20%;
+    text-transform: capitalize;
+    margin: 0 35%;
+    border-radius: 5px;
+    text-align: center;
+    width: 35%;
+    color: whitesmoke;
+    background-color: black;
+}
+.container .infor-program .item-dis-program:hover{
+    cursor: pointer;
+}
+
+.container .content .more{
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+.container .more li{
+    background-color: whitesmoke;
+    padding: 7px;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+}
+.container .more li:hover{
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(144,206,63);
+}
+
+.container .more .active{
+    background-color: rgb(144,206,63);
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.container .content .footer{
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.container .footer .contact{
+}
+
+.container .footer .online{
+    text-align: center;
+    height: 25px;
+    line-height: 30px;
+}
+
+.container .online .brand{
+    padding: 0 10px;
+}
+
+.container .footer .template{
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
